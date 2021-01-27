@@ -1,0 +1,85 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: right;
+
+    padding-left: 16px;
+    padding-top: 6px;
+}
+
+#navigation li:hover {
+    font-weight: 600;
+}
+
+.Welcome {
+    font-style: Canela;
+    font-size: 16px;
+}
+
+
+#aboutGrid {
+    background-color: #EAD7C6;
+}
+
+.aboutMe {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#aboutText {
+    display: flex;
+    /* min-height: 500px;
+    height: 70vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "photoAbout wordsAbout"
+    "photoAbout aboutLearnMore"; */
+}
+
+#photoAbout {
+   flex-basis: 48%;
+}
+
+#wordsAbout {
+    flex-basis: 48%;
+}
+
+
+
+.footerInfo {
+    align-items: center;
+}
+
+.footerBar {
+    display: flexbox;
+    height: 20px;
+    width: 100%;
+    color: #E75548;
+}
+
+.connect {
+    float: left;
+}
+
+.nav-style {
+    margin: .5em;
+    float: right;
+    padding-right: 16px;
+}
